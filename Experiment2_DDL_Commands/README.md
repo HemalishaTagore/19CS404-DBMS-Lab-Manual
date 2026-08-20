@@ -105,34 +105,84 @@ CREATE TABLE Table_Name (
 
 **Question 1**
 --
--- Paste Question 1 here
+Create a table named Departments with the following columns:
+
+DepartmentID as INTEGER
+DepartmentName as TEXT
+For example:
+
+Test	Result
+pragma table_info('Departments');
+cid    name             type        notnull     dflt_value  pk
+-----  ---------------  ----------  ----------  ----------  ----------
+0      DepartmentID     INTEGER     0                       0
+1      DepartmentName   TEXT        0                       0
 
 ```sql
--- Paste your SQL code below for Question 1
+create table Departments(
+DepartmentID INTEGER,
+DepartmentName TEXT);
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="878" height="438" alt="Screenshot 2026-08-20 115051" src="https://github.com/user-attachments/assets/42b6c368-43fb-41f7-833a-6ccee876fcc3" />
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+Create a table named Department with the following constraints:
+DepartmentID as INTEGER should be the primary key.
+DepartmentName as TEXT should be unique and not NULL.
+Location as TEXT.
+For example:
+
+Test	
+INSERT INTO Department (DepartmentID, DepartmentName, Location) VALUES (1, 'Human Resources', 'New York');
+select * from Department;
+
+Result
+DepartmentID  DepartmentName   Location
+------------  ---------------  ----------
+1             Human Resources  New York
+
 
 ```sql
--- Paste your SQL code below for Question 2
+CREATE TABLE Department(DepartmentID INTEGER PRIMARY KEY, DepartmentName TEXT UNIQUE NOT NULL, Location TEXT);
 ```
 
 **Output:**
 
-![Output2](output.png)
+<img width="1230" height="369" alt="Screenshot 2026-08-20 115307" src="https://github.com/user-attachments/assets/1c190533-c8d6-4020-aafb-27ed0610d67a" />
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+Create a new table named item with the following specifications and constraints:
+  item_id as TEXT and as primary key.
+  item_desc as TEXT.
+  rate as INTEGER.
+  icom_id as TEXT with a length of 4.
+  icom_id is a foreign key referencing com_id in the company table.
+  The foreign key should cascade updates and deletes.
+  item_desc and rate should not accept NULL.
+
+For example:
+
+Test	
+INSERT INTO item VALUES("ITM5","Charlie Gold",700,"COM4");
+UPDATE company SET com_id='COM5' WHERE com_id='COM4';
+SELECT * FROM item;
+
+Result
+
+item_id     item_desc     rate        icom_id
+----------  ------------  ----------  ----------
+ITM5        Charlie Gold  700         COM5
+
 
 ```sql
--- Paste your SQL code below for Question 3
+
 ```
 
 **Output:**
