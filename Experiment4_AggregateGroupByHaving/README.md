@@ -209,7 +209,8 @@ SELECT grade, COUNT(*) AS COUNT FROM customer GROUP BY grade ORDER BY COUNT LIMI
 
 **Output:**
 
-<img width="816" height="468" alt="image" src="https://github.com/user-attachments/assets/6857196a-8f29-4f60-a390-9d8d13b7af41" />
+<img width="815" height="436" alt="image" src="https://github.com/user-attachments/assets/dc37d499-8d4d-4e29-863e-25c6c524b8a8" />
+
 
 
 **Question 6**
