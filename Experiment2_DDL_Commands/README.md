@@ -190,7 +190,8 @@ ITM5        Charlie Gold  700         COM5
 
 **Output:**
 
-![Output3](output.png)
+<img width="873" height="430" alt="image" src="https://github.com/user-attachments/assets/cb2a0c21-bc34-492d-8532-4f691b3728d7" />
+
 
 **Question 4**
 ---
@@ -227,7 +228,8 @@ ALTER TABLE customer RENAME COLUMN city TO location;
 
 **Output:**
 
-![Output4](output.png)
+<img width="869" height="417" alt="image" src="https://github.com/user-attachments/assets/cc3f299a-77d9-44f0-92b7-bc4eca7416be" />
+
 
 **Question 5**
 ---
@@ -259,7 +261,8 @@ INSERT INTO student_details SELECT * FROM Archived_students;
 
 **Output:**
 
-![Output5](output.png)
+<img width="875" height="371" alt="image" src="https://github.com/user-attachments/assets/e859ff32-d7df-48f0-a688-a3fa8842c9f8" />
+
 
 **Question 6**
 ---
@@ -292,8 +295,9 @@ VALUES('978-6655443321', 'Big Data Analytics', 'Karen Adams');
 ```
 
 **Output:**
+<img width="872" height="408" alt="image" src="https://github.com/user-attachments/assets/485fda4a-c13e-4220-b7dc-c7222d83e753" />
 
-![Output6](output.png)
+
 
 **Question 7**
 ---
@@ -327,7 +331,8 @@ ON DELETE SET NULL);
 
 **Output:**
 
-![Output7](output.png)
+<img width="870" height="431" alt="image" src="https://github.com/user-attachments/assets/f3bbe689-4d6c-4e08-ae54-fc01704fbd70" />
+
 
 **Question 8**
 ---
@@ -352,7 +357,8 @@ ALTER TABLE employee ADD designation varchar(50);
 
 **Output:**
 
-![Output8](output.png)
+<img width="872" height="364" alt="image" src="https://github.com/user-attachments/assets/4c7a1dcc-27b1-4975-9ed5-faef9219b012" />
+
 
 **Question 9**
 ---
@@ -377,7 +383,8 @@ BonusDate DATE, Reason TEXT NOT NULL, FOREIGN KEY (EmployeeID) REFERENCES Employ
 
 **Output:**
 
-![Output9](output.png)
+<img width="868" height="359" alt="image" src="https://github.com/user-attachments/assets/f893f7f6-fad1-438a-9bdd-312eddae2d9f" />
+
 
 **Question 10**
 ---
@@ -412,7 +419,8 @@ VALUES
 
 **Output:**
 
-![Output10](output.png)
+<img width="870" height="368" alt="image" src="https://github.com/user-attachments/assets/bc90b31f-b1da-4244-9000-b8a44dc8e554" />
+
 
 
 ## RESULT
