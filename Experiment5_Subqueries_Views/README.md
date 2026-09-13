@@ -77,8 +77,8 @@ WHERE salesman_id IN (
 ```
 
 **Output:**
+<img width="896" height="533" alt="Screenshot 2026-09-13 143727" src="https://github.com/user-attachments/assets/b79221da-97b9-4f53-a051-bf8f2737d4cb" />
 
-![Output1](output.png)
 
 **Question 2**
 ---
@@ -133,7 +133,8 @@ WHERE s.commission = (
 
 **Output:**
 
-![Output2](output.png)
+<img width="887" height="575" alt="image" src="https://github.com/user-attachments/assets/e1366829-f0bd-4969-85c4-9eb5fdf69649" />
+
 
 **Question 3**
 ---
@@ -167,7 +168,8 @@ WHERE dosage = (
 
 **Output:**
 
-![Output3](output.png)
+<img width="889" height="484" alt="image" src="https://github.com/user-attachments/assets/6956087f-f30e-4e52-8d92-66b4dea82ea2" />
+
 
 **Question 4**
 ---
@@ -212,7 +214,8 @@ WHERE age < (
 
 **Output:**
 
-![Output4](output.png)
+<img width="897" height="512" alt="image" src="https://github.com/user-attachments/assets/b3a9a2a8-07ec-4bb9-a83b-441c9c2c91a5" />
+
 
 **Question 5**
 ---
@@ -251,7 +254,8 @@ WHERE city IN (
 
 **Output:**
 
-![Output5](output.png)
+<img width="890" height="549" alt="Screenshot 2026-09-13 143913" src="https://github.com/user-attachments/assets/0992be89-57fc-4470-9873-016909dff31c" />
+
 
 **Question 6**
 ---
@@ -292,8 +296,12 @@ WHERE SALARY > 4500;
 ```
 
 **Output:**
+<img width="897" height="536" alt="Screenshot 2026-09-13 143927" src="https://github.com/user-attachments/assets/d8f6ddc1-5561-4d3a-935b-be72428c5f67" />
 
-![Output6](output.png)
+
+
+
+
 
 **Question 7**
 ---
@@ -336,7 +344,8 @@ WHERE SALARY < 2500;
 
 **Output:**
 
-![Output7](output.png)
+<img width="886" height="567" alt="Screenshot 2026-09-13 144210" src="https://github.com/user-attachments/assets/0d1b7936-ea95-47c4-ae5e-af8b28a199cf" />
+
 
 **Question 8**
 ---
@@ -376,7 +385,9 @@ WHERE SALARY = 1500;
 
 **Output:**
 
-![Output8](output.png)
+<img width="902" height="442" alt="Screenshot 2026-09-13 144325" src="https://github.com/user-attachments/assets/05fb5314-32d6-4d2d-b2a3-ba54d37c9734" />
+
+
 
 **Question 9**
 ---
@@ -426,7 +437,8 @@ WHERE s.city = 'London';
 
 **Output:**
 
-![Output9](output.png)
+<img width="897" height="504" alt="Screenshot 2026-09-13 144407" src="https://github.com/user-attachments/assets/4f688631-c93e-40ef-8757-9815598bb3d6" />
+
 
 **Question 10**
 ---
@@ -467,6 +479,8 @@ WHERE phone IN (
 ```
 
 **Output:**
+
+<img width="897" height="546" alt="image" src="https://github.com/user-attachments/assets/d8821b3b-efed-424b-810e-e331f8b5d36a" />
 
 
 ## RESULT
